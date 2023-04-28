@@ -1,0 +1,180 @@
+:root {
+  --orange-color: #ffa500;
+  --pruple-color: #7b68ee;
+}
+
+body {
+  background-image: url(/images/bg_body.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg_body {
+  background-color: white;
+}
+
+.section {
+  margin-top: 150px;
+}
+
+.title_section {
+  margin-bottom: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+/* start navbar */
+
+nav {
+  width: 100% !important;
+}
+
+nav.bg-black {
+  background-color: #000000bd !important;
+}
+
+.navbar-brand.border-start {
+  border-left: 2px solid var(--pruple-color) !important;
+}
+
+nav .navbar-collapse .nav-link {
+  color: white;
+  font-size: 17px;
+}
+
+nav .navbar-collapse .nav-link.active,
+nav .navbar-collapse .nav-link:hover,
+nav .navbar-collapse .nav-link:focus {
+  color: #7b68ee;
+}
+
+.inp_outline {
+  outline: none;
+}
+
+.btn {
+  border: 1px solid var(--pruple-color) !important;
+  color: var(--pruple-color) !important;
+}
+
+.btn:hover {
+  color: white !important;
+  background-color: var(--pruple-color) !important;
+}
+
+nav .form-control {
+  border: 1px solid var(--pruple-color) !important;
+}
+
+nav .form-control::placeholder {
+  text-align: center;
+}
+
+.btn.login {
+  color: white !important;
+  background-color: var(--pruple-color) !important;
+}
+
+.btn.login:hover {
+  background-color: #6952eb !important;
+}
+/* end navbar */
+
+/* start carousel */
+.img_grp {
+  height: 80vh;
+  width: 100%;
+}
+
+.img_item {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  filter: brightness(0.5);
+}
+
+.carousel-inner .bg-dark {
+  background-color: #00000067 !important;
+}
+/* end carousel */
+
+/* start welcome section */
+.welcome_section_bg {
+  background-color: var(--pruple-color);
+}
+.btn.btn_white {
+  border: 1px solid black !important;
+  color: black !important;
+}
+
+.btn.btn_white:hover {
+  color: var(--pruple-color) !important;
+  background-color: black !important;
+}
+/* end welcome section */
+
+/* start types t-shirts */
+.accordion {
+  --bs-accordion-active-bg: rgb(19, 19, 19) !important;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-border-width: none !important;
+
+  --bs-accordion-btn-bg: var(--bs-accordion-bg);
+  --bs-accordion-btn-color: white;
+  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-color: white !important;
+  --bs-accordion-bg: rgb(19, 19, 19) !important;
+}
+
+.accordion-item {
+  background-color: var(--pruple-color) !important;
+  color: black !important;
+}
+
+.accordion-button:focus {
+  border: none !important;
+}
+
+.accordion-button {
+  color: white !important;
+  font-weight: bolder;
+}
+
+/* end types t-shirts */
+
+/* start service section */
+.border_service {
+  border-bottom: 5px solid var(--orange-color);
+  width: 420px !important;
+  border-radius: 100%;
+}
+/* end service section */
+
+/* start product section */
+.img_card {
+  width: 100%;
+  height: 400px;
+}
+
+.img_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.72);
+  width: 306px;
+  margin: 0 auto;
+}
+/* end product section */
+
+/* start team section */
+
+/* end team section */
+.card-body.team{
+  background-color: var(--pruple-color);
+}
